@@ -48,7 +48,7 @@ function scoreIncrease()
 
 document.querySelector("#pbottom").addEventListener("click",function(details)
 {
-   var clicknum = Number(details.target.textContent);     //if output is in black it is string ......and if output is in blue it is number
+   var clicknum = Number(details.target.textContent);    
    if(clicknum === hs)
    {
      scoreIncrease();
